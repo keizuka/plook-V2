@@ -1,0 +1,558 @@
+/* base */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* all the web page */
+.wrapper {
+    width: 100%;
+}
+
+/* logo */
+.img_banner {
+    display: none;
+}
+
+/* texte under the title */
+.img_info {
+    width: 100%;
+}
+
+/* title */
+.img_info h2 { 
+    padding: 30px 30px 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #111;
+    line-height: 40px;
+}
+
+/* texte */
+.img_info p { 
+    padding: 0px 30px 20px;
+    font-family: cursive;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+
+/**/
+
+
+.weedbox {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+
+}
+
+.all-flower {
+   width: 100%;
+}
+
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    justify-content: space-between;
+}
+
+.plant-grid1 {
+    background-image: url(../images/weed/runtz-muffin.jpg);
+    grid-column: 1/1;
+    grid-row: 1/1;
+    
+}
+
+.plant-grid2 {
+    background-image: url(../images/weed/gouda-berry.jpg);
+    grid-column: 2/2;
+    grid-row: 1/1;
+    
+}
+
+.plant-grid3 {
+    background-image: url(../images/weed/haze-berry.jpg);
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+.plant-grid4 {
+    background-image: url(../images/weed/mac-n-cheese.jpg);
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.plant-grid5 {
+    background-image: url(../images/weed/power-flower.jpg);
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+.plant-grid6 {
+    background-image: url(../images/weed/royal-runtz.jpg);
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.weed-details {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    background-color: #FFFFFFDF;
+    padding: 10px 10px;
+    
+}
+
+.weed-name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.weed-thc {
+    color: green;
+    font-weight: 800;
+    line-height: 10px;
+}
+
+.weed-info {
+    color: purple;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.weed-effect {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+
+/**/
+
+/* promo */
+
+.promo {
+    width: 100%;
+    
+}
+
+/* service */
+
+.bloc {
+    width: 100%;
+}
+
+/* map */
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 600px);
+    justify-content: space-between;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.info-grid1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    padding-left: 40px;
+}
+
+.info-grid2 {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    padding-right: 20px;
+}
+
+.info-grid3 {
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+
+
+.service-item-map {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 100%;
+   /* display: flex;*/
+}
+
+/* fin de map */
+
+/* info */
+.service-item-info {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.info-icon {
+    margin-top: 60px;
+    padding-left: 100px;
+    font-size: 50px;
+    width: 50%;
+}
+
+.service-details-info {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+/* fin de info */
+
+/* contact */
+
+.contact-icon {
+    margin-top: 60px;
+    padding-left: 100px;
+    font-size: 50px;
+    width: 50%;
+}
+
+.service-details-contact {
+    padding-top: 10px;
+    padding-left: 120px;
+}
+
+/* fin de contact */
+
+
+/* fin de service */
+
+/*  pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+/*------------------------------ for tablette ----------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+    .img_banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+    /* title */
+    .img_info h2 { 
+    padding: 20px 0px 0px;
+    }
+
+    /* service */
+
+    .bloc {
+        width: 100%;
+    }
+
+    /* map */
+
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 600px);
+        justify-content: space-between;
+    
+    }
+    
+    .services {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    
+    }
+    
+    .info-grid1 {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        padding-left: 150px;
+    }
+    
+    .info-grid2 {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        padding-left: 80px;
+    }
+    
+    .info-grid3 {
+        grid-column: 3/3;
+        grid-row: 1/1;
+        padding-left: 80px;
+    }
+    
+
+    .service-item-map {
+        width: 100%;
+    }
+
+    /* fin de map */
+
+    /* info */
+    .service-item-info {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    .info-icon {
+        margin-top: 60px;
+        padding-left: 10px;
+        font-size: 40px;
+        width: 20%;
+    }
+
+    .service-details-info {
+        padding-left: 0px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    /* fin de info */
+
+    /* contact */
+
+    .contact-icon {
+        margin-top: 60px;
+        padding-left: 10px;
+        font-size: 40px;
+        width: 20%;
+    }
+
+    .service-details-contact {
+        padding-top: 10px;
+        padding-left: 0px;
+        font-size: 20px;
+    }
+        
+        /* map */
+        
+        
+    .services {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    }
+        
+    .service-item-map {
+        margin-top: 20px;
+        margin-left: 13%;
+        width: 100%;
+        display: flex;
+    }
+        
+        /* fin de map */
+        
+        /* info */
+    .service-item-info {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+        
+    .info-icon {
+        margin-top: 60px;
+        padding-left: 100px;
+        font-size: 50px;
+        width: 50%;
+    }
+        
+    .service-details-info {
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+        
+        /* fin de info */
+        
+        /* contact */
+        
+    .contact-icon {
+        margin-top: 60px;
+        padding-left: 100px;
+        font-size: 50px;
+        width: 50%;
+    }
+        
+    .service-details-contact {
+        padding-top: 10px;
+        padding-left: 120px;
+        
+    }
+        
+        /* fin de contact */
+        
+        
+        /* fin de service */
+
+    /* fin de contact */
+
+
+    /* fin de service */
+
+}
+
+/*------------------------- for pc --------------------------------------------------------------------------*/
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+        width: auto;
+    }
+
+    .img_banner {
+        width: 100%;
+    }
+
+    .img_info {
+        width: 20%;
+        float: left;
+        padding-left: 5%;
+    }
+
+
+    .all-flower {
+        width: 100%;
+        padding-top: 150px;
+     }
+     
+     
+    .plant-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 800px);
+        justify-content: space-between;
+    }
+
+    /* promo */
+    
+    .promo {
+        width: 300%;
+        padding-left: 350px;
+    }
+
+    /* service */
+
+    .bloc {
+        width: 100%;
+    }
+
+    /* map */
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 600px);
+        justify-content: space-between;
+    
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding-top: 1800px;
+        padding-right: 100px;
+
+    }
+
+    .info-grid1 {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        padding-right: 0px;
+    }
+
+    .info-grid2 {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        padding-right: 20px;
+    }
+
+    .info-grid3 {
+        grid-column: 3/3;
+        grid-row: 1/1;
+    }
+
+    
+
+    /* fin de map */
+
+    /* info */
+    .service-item-info {
+        width: 100%;
+        padding-left: 400px;
+        padding-top: 1px;
+    }
+
+    .info-icon {
+        padding-left: 40px;
+        padding-bottom: 2px;
+        font-size: 40px;
+        width: 20%;
+    }
+
+    .service-details-info {
+        padding-left: 0px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    /* fin de info */
+
+    /* contact */
+
+    .contact-icon {
+        margin-top: 60px;
+        padding-left: 10px;
+        font-size: 40px;
+        width: 20%;
+    }
+
+    .service-details-contact {
+        padding-top: 10px;
+        padding-left: 0px;
+        font-size: 20px;
+    }
+            
+    /* fin de service */
+
+    /*  pied de page */
+
+    footer {
+        
+        width: 1000px;
+        padding-top: 5%;
+        padding-right: 0%;
+        
+    }
+
+    footer a.cgv {
+        text-decoration: none;
+        color: black;
+        padding-right: 10%;
+    }
+
+}
