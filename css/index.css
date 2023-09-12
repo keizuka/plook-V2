@@ -62,39 +62,39 @@
 }
 
 .plant-grid1 {
-    background-image: url(../images/weed/runtz-muffin.jpg);
+    background-image: url(../images/weed/pink_panties.jpg);
     grid-column: 1/1;
     grid-row: 1/1;
     
 }
 
 .plant-grid2 {
-    background-image: url(../images/weed/gouda-berry.jpg);
+    background-image: url(../images/weed/raspberry_cookie.jpg);
     grid-column: 2/2;
     grid-row: 1/1;
     
 }
 
 .plant-grid3 {
-    background-image: url(../images/weed/haze-berry.jpg);
+    background-image: url(../images/weed/cookie_cream.jpg);
     grid-column: 1/1;
     grid-row: 2/2;
 }
 
 .plant-grid4 {
-    background-image: url(../images/weed/mac-n-cheese.jpg);
+    background-image: url(../images/weed/haze-berry.jpg);
     grid-column: 2/2;
     grid-row: 2/2;
 }
 
 .plant-grid5 {
-    background-image: url(../images/weed/power-flower.jpg);
+    background-image: url(../images/weed/american_pie.jpg);
     grid-column: 1/1;
     grid-row: 3/3;
 }
 
 .plant-grid6 {
-    background-image: url(../images/weed/royal-runtz.jpg);
+    background-image: url(../images/weed/orange_cookie.jpg);
     grid-column: 2/2;
     grid-row: 3/3;
 }
@@ -443,7 +443,7 @@ footer a.cgv {
     .plant-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 800px);
+        grid-template-rows: repeat(3, 600px);
         justify-content: space-between;
     }
 
