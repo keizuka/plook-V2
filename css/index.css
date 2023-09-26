@@ -6,12 +6,13 @@
 
 /* all the web page */
 .wrapper {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 /* logo */
 .img_banner {
-    display: none;
+    width: 100%;
 }
 
 /* texte under the title */
@@ -51,13 +52,14 @@
 
 .all-flower {
    width: 100%;
+   margin-left: 0%;
 }
 
 
 .plant-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(3, 250px);
     justify-content: space-between;
 }
 
@@ -141,13 +143,14 @@
 
 .promo {
     width: 100%;
-    
+    margin-left: 0%;
 }
 
 /* service */
 
 .bloc {
     width: 100%;
+    margin-left: 0%;
 }
 
 /* map */
@@ -157,7 +160,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 600px);
     justify-content: space-between;
-
 }
 
 .services {
@@ -170,13 +172,13 @@
 .info-grid1 {
     grid-column: 1/1;
     grid-row: 1/1;
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 .info-grid2 {
     grid-column: 2/2;
     grid-row: 1/1;
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
 .info-grid3 {
@@ -187,7 +189,7 @@
 
 .service-item-map {
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 0px;
     width: 100%;
    /* display: flex;*/
 }
@@ -202,13 +204,13 @@
 
 .info-icon {
     margin-top: 60px;
-    padding-left: 100px;
+    padding-left: 10px;
     font-size: 50px;
     width: 50%;
 }
 
 .service-details-info {
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 10px;
 }
 
@@ -218,14 +220,14 @@
 
 .contact-icon {
     margin-top: 60px;
-    padding-left: 100px;
+    padding-left: 10px;
     font-size: 50px;
     width: 50%;
 }
 
 .service-details-contact {
     padding-top: 10px;
-    padding-left: 120px;
+    padding-left: 10px;
 }
 
 /* fin de contact */
@@ -250,194 +252,137 @@ footer a.cgv {
 
 /*------------------------------ for tablette ----------------------------------------------------*/
 @media only screen and (min-width: 768px) {
+
+    .wrapper {
+        width: 90%;
+    }
+
     .img_banner {
         display: block;
         width: 100%;
         padding-bottom: 30px;
+        margin-left: 0%;
     }
 
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
-    /* title */
-    .img_info h2 { 
-    padding: 20px 0px 0px;
-    }
-
-    /* service */
-
-    .bloc {
+    .all-flower {
         width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-left: 0%;
     }
 
-    /* map */
-
-
-    .info-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 600px);
-        justify-content: space-between;
-    
+    .promo {
+        margin-left: 0%;
     }
-    
+
+    /* debut service */
     .services {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+        padding-top: 3%;
+        padding-bottom: 3%;
     
     }
     
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 600px);
+        justify-content: space-between;
+    
+    }
+
     .info-grid1 {
         grid-column: 1/1;
         grid-row: 1/1;
-        padding-left: 150px;
     }
     
     .info-grid2 {
         grid-column: 2/2;
         grid-row: 1/1;
-        padding-left: 80px;
     }
     
     .info-grid3 {
         grid-column: 3/3;
         grid-row: 1/1;
-        padding-left: 80px;
     }
     
+    /* map */
 
     .service-item-map {
         width: 100%;
+        margin-left: 0%;
     }
 
     /* fin de map */
 
     /* info */
-    .service-item-info {
-        width: 100%;
-        margin-bottom: 1%;
-    }
 
     .info-icon {
         margin-top: 60px;
-        padding-left: 10px;
         font-size: 40px;
         width: 20%;
+        margin-left: 40%;
     }
 
     .service-details-info {
-        padding-left: 0px;
+        margin-left: 5%;
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     /* fin de info */
-
+        
     /* contact */
-
+        
     .contact-icon {
         margin-top: 60px;
-        padding-left: 10px;
-        font-size: 40px;
+        margin-left: 40%;
         width: 20%;
     }
-
-    .service-details-contact {
-        padding-top: 10px;
-        padding-left: 0px;
-        font-size: 20px;
-    }
-        
-        /* map */
-        
-        
-    .services {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        
-    }
-        
-    .service-item-map {
-        margin-top: 20px;
-        margin-left: 13%;
-        width: 100%;
-        display: flex;
-    }
-        
-        /* fin de map */
-        
-        /* info */
-    .service-item-info {
-        width: 100%;
-        margin-bottom: 1%;
-    }
-        
-    .info-icon {
-        margin-top: 60px;
-        padding-left: 100px;
-        font-size: 50px;
-        width: 50%;
-    }
-        
-    .service-details-info {
-        padding-left: 40px;
-        padding-top: 10px;
-    }
-        
-        /* fin de info */
-        
-        /* contact */
-        
-    .contact-icon {
-        margin-top: 60px;
-        padding-left: 100px;
-        font-size: 50px;
-        width: 50%;
-    }
         
     .service-details-contact {
         padding-top: 10px;
-        padding-left: 120px;
-        
+        margin-left: 30%;
+        font-size: 30px;    
     }
-        
-        /* fin de contact */
-        
-        
-        /* fin de service */
-
     /* fin de contact */
 
-
+    .bloc-comment {
+        width: 100%;
+        margin-left: 0%;
+    }
+        
     /* fin de service */
-
 }
 
 /*------------------------- for pc --------------------------------------------------------------------------*/
 @media only screen and (min-width: 1000px) {
 
     .wrapper {
-        width: auto;
+        width: 90%;
+        
     }
 
     .img_banner {
         width: 100%;
+        margin-left: 5%;
     }
 
     .img_info {
         width: 20%;
         float: left;
-        padding-left: 5%;
+        margin-left: 5%;
     }
 
 
     .all-flower {
         width: 100%;
-        padding-top: 150px;
-     }
+        padding-top: 90px;
+        padding-bottom: 80px;
+        margin-left: 5%;
+    }
      
      
     .plant-grid {
@@ -447,96 +392,133 @@ footer a.cgv {
         justify-content: space-between;
     }
 
+    .plant-grid1 {
+        background-image: url(../images/weed/pink_panties.jpg);
+        grid-column: 1/1;
+        grid-row: 1/1;
+        
+    }
+    
+    .plant-grid2 {
+        background-image: url(../images/weed/raspberry_cookie.jpg);
+        grid-column: 2/2;
+        grid-row: 1/1;
+        
+    }
+    
+    .plant-grid3 {
+        background-image: url(../images/weed/cookie_cream.jpg);
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    
+    .plant-grid4 {
+        background-image: url(../images/weed/haze-berry.jpg);
+        grid-column: 2/2;
+        grid-row: 2/2;
+    }
+    
+    .plant-grid5 {
+        background-image: url(../images/weed/american_pie.jpg);
+        grid-column: 1/1;
+        grid-row: 3/3;
+    }
+    
+    .plant-grid6 {
+        background-image: url(../images/weed/orange_cookie.jpg);
+        grid-column: 2/2;
+        grid-row: 3/3;
+    }
+
     /* promo */
     
     .promo {
-        width: 300%;
-        padding-left: 350px;
+        width: 275%;
+        margin-left: 0%;
     }
 
     /* service */
 
     .bloc {
         width: 100%;
+        margin-left: 5%;
     }
-
-    /* map */
 
     .info-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 600px);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 600px);
         justify-content: space-between;
     
     }
 
     .services {
-        display: flex;
+        display: block;
         justify-content: space-evenly;
-        flex-direction: row;
-        padding-top: 1800px;
-        padding-right: 100px;
-
+        flex-direction: column;
+        margin-left: 55%;
     }
 
     .info-grid1 {
         grid-column: 1/1;
         grid-row: 1/1;
-        padding-right: 0px;
+        padding-right: 10%;
     }
 
     .info-grid2 {
         grid-column: 2/2;
         grid-row: 1/1;
-        padding-right: 20px;
     }
 
     .info-grid3 {
-        grid-column: 3/3;
+        grid-column: 2/2;
         grid-row: 1/1;
     }
 
-    
+    /* map */
+
+    .service-item-map {
+        width: 100%;
+    }
 
     /* fin de map */
 
     /* info */
-    .service-item-info {
-        width: 100%;
-        padding-left: 400px;
-        padding-top: 1px;
-    }
 
     .info-icon {
-        padding-left: 40px;
-        padding-bottom: 2px;
-        font-size: 40px;
+        margin-top: 3%;
         width: 20%;
+        margin-left: 10%;
     }
 
     .service-details-info {
         padding-left: 0px;
-        padding-top: 10px;
-        font-size: 20px;
+        padding-top: 3%;
+        font-size: 30px;
     }
 
     /* fin de info */
-
+        
     /* contact */
-
+        
     .contact-icon {
         margin-top: 60px;
-        padding-left: 10px;
-        font-size: 40px;
+        margin-left: 10%;
         width: 20%;
     }
-
+        
     .service-details-contact {
-        padding-top: 10px;
-        padding-left: 0px;
-        font-size: 20px;
+        margin-top: 3%;
+        margin-left: 10%;
     }
-            
+    /* fin de contact */
+
+    .bloc-comment {
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+        
     /* fin de service */
 
     /*  pied de page */
