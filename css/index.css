@@ -64,39 +64,38 @@
 }
 
 .plant-grid1 {
-    background-image: url(../images/weed/pink_panties.jpg);
+    background-image: url(../images/weed/Thugroze1.jpg);
     grid-column: 1/1;
     grid-row: 1/1;
     
 }
 
 .plant-grid2 {
-    background-image: url(../images/weed/raspberry_cookie.jpg);
+    background-image: url(../images/weed/Raspberry_cookie1.jpg);
     grid-column: 2/2;
     grid-row: 1/1;
-    
 }
 
 .plant-grid3 {
-    background-image: url(../images/weed/cookie_cream.jpg);
+    background-image: url(../images/weed/Cookie_cream1.jpg);
     grid-column: 1/1;
     grid-row: 2/2;
 }
 
 .plant-grid4 {
-    background-image: url(../images/weed/haze-berry.jpg);
+    background-image: url(../images/weed/Haze_berry1.jpg);
     grid-column: 2/2;
     grid-row: 2/2;
 }
 
 .plant-grid5 {
-    background-image: url(../images/weed/american_pie.jpg);
+    background-image: url(../images/weed/American_pie1.jpg);
     grid-column: 1/1;
     grid-row: 3/3;
 }
 
 .plant-grid6 {
-    background-image: url(../images/weed/orange_cookie.jpg);
+    background-image: url(../images/weed/Haze_joint1.jpg);
     grid-column: 2/2;
     grid-row: 3/3;
 }
@@ -266,9 +265,34 @@ footer a.cgv {
 
     .all-flower {
         width: 100%;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         margin-left: 0%;
+    }
+
+    .plant-grid1 {
+        background-image: url(/images/weed/Thugroze1.jpg);
+        
+    }
+
+    .plant-grid2 {
+        background-image: url(/images/weed/Raspberry_cookie2.jpg);
+    }
+    
+    .plant-grid3 {
+        background-image: url(/images/weed/Cookie_cream2.jpg);
+    }
+
+    .plant-grid4 {
+        background-image: url(/images/weed/Haze_berry2.jpg);
+    }
+
+    .plant-grid5 {
+        background-image: url(/images/weed/American_pie2.jpg);
+    }
+
+    .plant-grid6 {
+
     }
 
     .promo {
