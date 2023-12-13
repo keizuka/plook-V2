@@ -71,19 +71,19 @@
 }
 
 .plant-grid2 {
-    background-image: url(../images/weed/Raspberry_cookie1.jpg);
+    background-image: url(../images/weed/Funcky_Charm.jpg);
     grid-column: 2/2;
     grid-row: 1/1;
 }
 
 .plant-grid3 {
-    background-image: url(../images/weed/Cookie_cream1.jpg);
+    background-image: url(../images/weed/Black_Truffle.jpg);
     grid-column: 1/1;
     grid-row: 2/2;
 }
 
 .plant-grid4 {
-    background-image: url(../images/weed/Haze_berry1.jpg);
+    background-image: url(../images/weed/Blood_Diamond.jpg);
     grid-column: 2/2;
     grid-row: 2/2;
 }
@@ -276,15 +276,15 @@ footer a.cgv {
     }
 
     .plant-grid2 {
-        background-image: url(/images/weed/Raspberry_cookie2.jpg);
+        background-image: url(/images/weed/Funcky_Charm.jpg);
     }
     
     .plant-grid3 {
-        background-image: url(/images/weed/Cookie_cream2.jpg);
+        background-image: url(/images/weed/Black_Truffle.jpg);
     }
 
     .plant-grid4 {
-        background-image: url(/images/weed/Haze_berry2.jpg);
+        background-image: url(/images/weed/Blood_Diamond.jpg);
     }
 
     .plant-grid5 {
@@ -292,7 +292,7 @@ footer a.cgv {
     }
 
     .plant-grid6 {
-
+        background-image: url(/images/weed/Haze_joint1.jpg);
     }
 
     .promo {
@@ -385,7 +385,7 @@ footer a.cgv {
 @media only screen and (min-width: 1000px) {
 
     .wrapper {
-        width: 90%;
+        width: 80%;
         
     }
 
@@ -417,39 +417,39 @@ footer a.cgv {
     }
 
     .plant-grid1 {
-        background-image: url(../images/weed/pink_panties.jpg);
+        background-image: url(../images/weed/Thugroze1.jpg);
         grid-column: 1/1;
         grid-row: 1/1;
         
     }
     
     .plant-grid2 {
-        background-image: url(../images/weed/raspberry_cookie.jpg);
+        background-image: url(../images/weed/Funcky_Charm.jpg);
         grid-column: 2/2;
         grid-row: 1/1;
         
     }
     
     .plant-grid3 {
-        background-image: url(../images/weed/cookie_cream.jpg);
+        background-image: url(../images/weed/Black_Truffle.jpg);
         grid-column: 1/1;
         grid-row: 2/2;
     }
     
     .plant-grid4 {
-        background-image: url(../images/weed/haze-berry.jpg);
+        background-image: url(../images/weed/Blood_Diamond.jpg);
         grid-column: 2/2;
         grid-row: 2/2;
     }
     
     .plant-grid5 {
-        background-image: url(../images/weed/american_pie.jpg);
+        background-image: url(../images/weed/American_pie2.jpg);
         grid-column: 1/1;
         grid-row: 3/3;
     }
     
     .plant-grid6 {
-        background-image: url(../images/weed/orange_cookie.jpg);
+        background-image: url(../images/weed/Haze_joint1.jpg);
         grid-column: 2/2;
         grid-row: 3/3;
     }
